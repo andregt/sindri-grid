@@ -1,0 +1,23 @@
+{
+  "name": "sindri-grid",
+  "version": "0.1.1",
+  "description": "Gerador de datagrid basado no modulo para angular: ui-grid integrado com o frameworl nodejs Sindri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andregt/sindri-grid.git"
+  },
+  "keywords": [
+    "datagrid",
+    "grid"
+  ],
+  "author": "André Timermann <andre@andregustavo.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andregt/sindri-grid/issues"
+  },
+  "homepage": "https://github.com/andregt/sindri-grid#readme"
+}

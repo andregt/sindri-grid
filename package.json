@@ -19,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/andregt/sindri-grid/issues"
   },
-  "homepage": "https://github.com/andregt/sindri-grid#readme"
+  "homepage": "https://github.com/andregt/sindri-grid#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-grid": "^3.1.1",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "jquery": "^2.2.3",
+    "lodash": "^4.11.1",
+    "sindri-client": "^0.1.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
+  }
 }

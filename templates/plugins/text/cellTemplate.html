@@ -1,0 +1,12 @@
+<!--<div class="ui-grid-cell-contents" >{{ grid.getCellDisplayValue(row, col)}} </div>-->
+
+<!--<div class="ui-grid-cell-contents">{{ row.entity[col.field] }}</div>-->
+<!--<div class="ui-grid-cell-contents" >{{ grid.appScope.sindriGridCtrl.teste(grid) }}</div>-->
+<!--<div class="ui-grid-cell-contents" >{{ grid.appScope.sindriGridCtrl.teste(grid) }}</div>-->
+
+<!--<div data-ng-if="COL_FIELD" class="ui-grid-cell-contents" title="TOOLTIP">{{COL_FIELD CUSTOM_FILTERS}}</div>-->
+<div data-ng-if="COL_FIELD !== '' && COL_FIELD !== undefined && COL_FIELD !== null" class="ui-grid-cell-contents" title="TOOLTIP">{{ grid.appScope.sindriGridCtrl.column[col.field].getText(grid, row, col) }}</div>
+
+<!--<div data-ng-if="!COL_FIELD" class="ui-grid-cell-contents" title="TOOLTIP">{{ grid.appScope.sindriGridCtrl.plugins.text.getNullText(col.field) }}</div>-->
+<div data-ng-if="COL_FIELD === '' || COL_FIELD === undefined || COL_FIELD === null" class="ui-grid-cell-contents" title="TOOLTIP"><small class="c-gray">{{ grid.appScope.sindriGridCtrl.column[col.field].nullText}}</small></div>
+<!--<div data-ng-if="!COL_FIELD" class="ui-grid-cell-contents" title="TOOLTIP">{{ col.field }}</div>-->

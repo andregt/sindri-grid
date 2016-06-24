@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/andregt/sindri-grid#readme",
   "dependencies": {
-    "angular": "^1.5.5",
+    "angular": "^1.5.8-fix-6",
     "angular-ui-grid": "^3.1.1",
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",

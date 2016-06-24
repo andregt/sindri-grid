@@ -1,6 +1,6 @@
 {
   "name": "sindri-grid",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Gerador de datagrid basado no modulo para angular: ui-grid integrado com o frameworl nodejs Sindri",
   "main": "index.js",
   "scripts": {
